@@ -28,60 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnAttack = new System.Windows.Forms.Button();
+            this.btnBlock = new System.Windows.Forms.Button();
+            this.btnSpecialAttack = new System.Windows.Forms.Button();
+            this.txtBattleLog = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnRest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnAttack
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(65, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 55);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Attack";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAttack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttack.Location = new System.Drawing.Point(65, 113);
+            this.btnAttack.Name = "btnAttack";
+            this.btnAttack.Size = new System.Drawing.Size(190, 55);
+            this.btnAttack.TabIndex = 0;
+            this.btnAttack.Text = "Attack";
+            this.btnAttack.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnBlock
             // 
-            this.button2.BackColor = System.Drawing.Color.Cyan;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(65, 184);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 55);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Block";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnBlock.BackColor = System.Drawing.Color.Cyan;
+            this.btnBlock.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBlock.Location = new System.Drawing.Point(65, 184);
+            this.btnBlock.Name = "btnBlock";
+            this.btnBlock.Size = new System.Drawing.Size(190, 55);
+            this.btnBlock.TabIndex = 1;
+            this.btnBlock.Text = "Block";
+            this.btnBlock.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnSpecialAttack
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(65, 257);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 55);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Special Attack";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnSpecialAttack.BackColor = System.Drawing.Color.Yellow;
+            this.btnSpecialAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpecialAttack.Location = new System.Drawing.Point(65, 257);
+            this.btnSpecialAttack.Name = "btnSpecialAttack";
+            this.btnSpecialAttack.Size = new System.Drawing.Size(190, 55);
+            this.btnSpecialAttack.TabIndex = 2;
+            this.btnSpecialAttack.Text = "Special Attack";
+            this.btnSpecialAttack.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtBattleLog
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox1.Location = new System.Drawing.Point(25, 371);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(545, 141);
-            this.textBox1.TabIndex = 3;
+            this.txtBattleLog.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtBattleLog.Location = new System.Drawing.Point(25, 371);
+            this.txtBattleLog.Multiline = true;
+            this.txtBattleLog.Name = "txtBattleLog";
+            this.txtBattleLog.Size = new System.Drawing.Size(545, 141);
+            this.txtBattleLog.TabIndex = 3;
             // 
             // textBox2
             // 
@@ -150,16 +150,16 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "OPPONENT X";
             // 
-            // button4
+            // btnRest
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(646, 314);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(190, 173);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "REST";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnRest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnRest.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRest.Location = new System.Drawing.Point(646, 314);
+            this.btnRest.Name = "btnRest";
+            this.btnRest.Size = new System.Drawing.Size(190, 173);
+            this.btnRest.TabIndex = 10;
+            this.btnRest.Text = "REST";
+            this.btnRest.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
@@ -167,17 +167,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Dragon_Game_gui.Properties.Resources.R;
             this.ClientSize = new System.Drawing.Size(870, 533);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btnRest);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtBattleLog);
+            this.Controls.Add(this.btnSpecialAttack);
+            this.Controls.Add(this.btnBlock);
+            this.Controls.Add(this.btnAttack);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -188,16 +188,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnAttack;
+        private System.Windows.Forms.Button btnBlock;
+        private System.Windows.Forms.Button btnSpecialAttack;
+        private System.Windows.Forms.TextBox txtBattleLog;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnRest;
     }
 }

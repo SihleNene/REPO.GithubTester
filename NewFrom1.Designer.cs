@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnStartGame = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.radEarthDragon1 = new System.Windows.Forms.RadioButton();
+            this.radWindDragon1 = new System.Windows.Forms.RadioButton();
+            this.radIceDragon1 = new System.Windows.Forms.RadioButton();
+            this.radFireDragon1 = new System.Windows.Forms.RadioButton();
+            this.radWindDragon2 = new System.Windows.Forms.RadioButton();
+            this.radIceDragon2 = new System.Windows.Forms.RadioButton();
+            this.radFireDragon2 = new System.Windows.Forms.RadioButton();
+            this.radEarthDragon2 = new System.Windows.Forms.RadioButton();
+            this.txtDragonName1 = new System.Windows.Forms.TextBox();
+            this.txtDragonName2 = new System.Windows.Forms.TextBox();
+            this.txtPlayerName2 = new System.Windows.Forms.TextBox();
+            this.txtPlayerName1 = new System.Windows.Forms.TextBox();
+            this.btnPlayerSave2 = new System.Windows.Forms.Button();
+            this.btnPlayerSave1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -55,16 +55,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnStartGame
             // 
-            this.button1.BackColor = System.Drawing.Color.Silver;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(46, 500);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1000, 91);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "START";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnStartGame.BackColor = System.Drawing.Color.Silver;
+            this.btnStartGame.Font = new System.Drawing.Font("Microsoft YaHei", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStartGame.Location = new System.Drawing.Point(46, 500);
+            this.btnStartGame.Name = "btnStartGame";
+            this.btnStartGame.Size = new System.Drawing.Size(1000, 91);
+            this.btnStartGame.TabIndex = 2;
+            this.btnStartGame.Text = "START";
+            this.btnStartGame.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -85,171 +85,172 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // radioButton2
+            // radEarthDragon1
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton2.Location = new System.Drawing.Point(79, 346);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(100, 17);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Earth Dragon";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.radEarthDragon1.AutoSize = true;
+            this.radEarthDragon1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radEarthDragon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radEarthDragon1.ForeColor = System.Drawing.Color.Lime;
+            this.radEarthDragon1.Location = new System.Drawing.Point(79, 346);
+            this.radEarthDragon1.Name = "radEarthDragon1";
+            this.radEarthDragon1.Size = new System.Drawing.Size(100, 17);
+            this.radEarthDragon1.TabIndex = 6;
+            this.radEarthDragon1.TabStop = true;
+            this.radEarthDragon1.Text = "Earth Dragon";
+            this.radEarthDragon1.UseVisualStyleBackColor = false;
             // 
-            // radioButton3
+            // radWindDragon1
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.Cyan;
-            this.radioButton3.Location = new System.Drawing.Point(80, 304);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(99, 17);
-            this.radioButton3.TabIndex = 7;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Wind Dragon";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.radWindDragon1.AutoSize = true;
+            this.radWindDragon1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radWindDragon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radWindDragon1.ForeColor = System.Drawing.Color.Cyan;
+            this.radWindDragon1.Location = new System.Drawing.Point(80, 304);
+            this.radWindDragon1.Name = "radWindDragon1";
+            this.radWindDragon1.Size = new System.Drawing.Size(99, 17);
+            this.radWindDragon1.TabIndex = 7;
+            this.radWindDragon1.TabStop = true;
+            this.radWindDragon1.Text = "Wind Dragon";
+            this.radWindDragon1.UseVisualStyleBackColor = false;
             // 
-            // radioButton4
+            // radIceDragon1
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.ForeColor = System.Drawing.Color.Blue;
-            this.radioButton4.Location = new System.Drawing.Point(79, 265);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(88, 17);
-            this.radioButton4.TabIndex = 8;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Ice Dragon";
-            this.radioButton4.UseVisualStyleBackColor = false;
+            this.radIceDragon1.AutoSize = true;
+            this.radIceDragon1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radIceDragon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radIceDragon1.ForeColor = System.Drawing.Color.Blue;
+            this.radIceDragon1.Location = new System.Drawing.Point(79, 265);
+            this.radIceDragon1.Name = "radIceDragon1";
+            this.radIceDragon1.Size = new System.Drawing.Size(88, 17);
+            this.radIceDragon1.TabIndex = 8;
+            this.radIceDragon1.TabStop = true;
+            this.radIceDragon1.Text = "Ice Dragon";
+            this.radIceDragon1.UseVisualStyleBackColor = false;
             // 
-            // radioButton5
+            // radFireDragon1
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.ForeColor = System.Drawing.Color.Red;
-            this.radioButton5.Location = new System.Drawing.Point(79, 228);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(91, 17);
-            this.radioButton5.TabIndex = 9;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Fire Dragon";
-            this.radioButton5.UseVisualStyleBackColor = false;
+            this.radFireDragon1.AutoSize = true;
+            this.radFireDragon1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radFireDragon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radFireDragon1.ForeColor = System.Drawing.Color.Red;
+            this.radFireDragon1.Location = new System.Drawing.Point(79, 228);
+            this.radFireDragon1.Name = "radFireDragon1";
+            this.radFireDragon1.Size = new System.Drawing.Size(91, 17);
+            this.radFireDragon1.TabIndex = 9;
+            this.radFireDragon1.TabStop = true;
+            this.radFireDragon1.Text = "Fire Dragon";
+            this.radFireDragon1.UseVisualStyleBackColor = false;
             // 
-            // radioButton6
+            // radWindDragon2
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.ForeColor = System.Drawing.Color.Cyan;
-            this.radioButton6.Location = new System.Drawing.Point(680, 304);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(99, 17);
-            this.radioButton6.TabIndex = 10;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Wind Dragon";
-            this.radioButton6.UseVisualStyleBackColor = false;
+            this.radWindDragon2.AutoSize = true;
+            this.radWindDragon2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radWindDragon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radWindDragon2.ForeColor = System.Drawing.Color.Cyan;
+            this.radWindDragon2.Location = new System.Drawing.Point(680, 304);
+            this.radWindDragon2.Name = "radWindDragon2";
+            this.radWindDragon2.Size = new System.Drawing.Size(99, 17);
+            this.radWindDragon2.TabIndex = 10;
+            this.radWindDragon2.TabStop = true;
+            this.radWindDragon2.Text = "Wind Dragon";
+            this.radWindDragon2.UseVisualStyleBackColor = false;
             // 
-            // radioButton7
+            // radIceDragon2
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.ForeColor = System.Drawing.Color.Blue;
-            this.radioButton7.Location = new System.Drawing.Point(680, 265);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(88, 17);
-            this.radioButton7.TabIndex = 11;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Ice Dragon";
-            this.radioButton7.UseVisualStyleBackColor = false;
+            this.radIceDragon2.AutoSize = true;
+            this.radIceDragon2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radIceDragon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radIceDragon2.ForeColor = System.Drawing.Color.Blue;
+            this.radIceDragon2.Location = new System.Drawing.Point(680, 265);
+            this.radIceDragon2.Name = "radIceDragon2";
+            this.radIceDragon2.Size = new System.Drawing.Size(88, 17);
+            this.radIceDragon2.TabIndex = 11;
+            this.radIceDragon2.TabStop = true;
+            this.radIceDragon2.Text = "Ice Dragon";
+            this.radIceDragon2.UseVisualStyleBackColor = false;
+            this.radIceDragon2.CheckedChanged += new System.EventHandler(this.radIceDragon2_CheckedChanged);
             // 
-            // radioButton8
+            // radFireDragon2
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.ForeColor = System.Drawing.Color.Red;
-            this.radioButton8.Location = new System.Drawing.Point(680, 228);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(91, 17);
-            this.radioButton8.TabIndex = 12;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Fire Dragon";
-            this.radioButton8.UseVisualStyleBackColor = false;
+            this.radFireDragon2.AutoSize = true;
+            this.radFireDragon2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radFireDragon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radFireDragon2.ForeColor = System.Drawing.Color.Red;
+            this.radFireDragon2.Location = new System.Drawing.Point(680, 228);
+            this.radFireDragon2.Name = "radFireDragon2";
+            this.radFireDragon2.Size = new System.Drawing.Size(91, 17);
+            this.radFireDragon2.TabIndex = 12;
+            this.radFireDragon2.TabStop = true;
+            this.radFireDragon2.Text = "Fire Dragon";
+            this.radFireDragon2.UseVisualStyleBackColor = false;
             // 
-            // radioButton1
+            // radEarthDragon2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Lime;
-            this.radioButton1.Location = new System.Drawing.Point(680, 346);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(100, 17);
-            this.radioButton1.TabIndex = 13;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Earth Dragon";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radEarthDragon2.AutoSize = true;
+            this.radEarthDragon2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.radEarthDragon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radEarthDragon2.ForeColor = System.Drawing.Color.Lime;
+            this.radEarthDragon2.Location = new System.Drawing.Point(680, 346);
+            this.radEarthDragon2.Name = "radEarthDragon2";
+            this.radEarthDragon2.Size = new System.Drawing.Size(100, 17);
+            this.radEarthDragon2.TabIndex = 13;
+            this.radEarthDragon2.TabStop = true;
+            this.radEarthDragon2.Text = "Earth Dragon";
+            this.radEarthDragon2.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // txtDragonName1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(219, 196);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 20);
-            this.textBox1.TabIndex = 14;
+            this.txtDragonName1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtDragonName1.Location = new System.Drawing.Point(219, 196);
+            this.txtDragonName1.Name = "txtDragonName1";
+            this.txtDragonName1.Size = new System.Drawing.Size(197, 20);
+            this.txtDragonName1.TabIndex = 14;
             // 
-            // textBox2
+            // txtDragonName2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(818, 196);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 20);
-            this.textBox2.TabIndex = 15;
+            this.txtDragonName2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtDragonName2.Location = new System.Drawing.Point(818, 196);
+            this.txtDragonName2.Name = "txtDragonName2";
+            this.txtDragonName2.Size = new System.Drawing.Size(197, 20);
+            this.txtDragonName2.TabIndex = 15;
             // 
-            // textBox3
+            // txtPlayerName2
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Location = new System.Drawing.Point(818, 146);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(197, 20);
-            this.textBox3.TabIndex = 16;
+            this.txtPlayerName2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtPlayerName2.Location = new System.Drawing.Point(818, 146);
+            this.txtPlayerName2.Name = "txtPlayerName2";
+            this.txtPlayerName2.Size = new System.Drawing.Size(197, 20);
+            this.txtPlayerName2.TabIndex = 16;
             // 
-            // textBox4
+            // txtPlayerName1
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Location = new System.Drawing.Point(219, 146);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(197, 20);
-            this.textBox4.TabIndex = 17;
+            this.txtPlayerName1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtPlayerName1.Location = new System.Drawing.Point(219, 146);
+            this.txtPlayerName1.Name = "txtPlayerName1";
+            this.txtPlayerName1.Size = new System.Drawing.Size(197, 20);
+            this.txtPlayerName1.TabIndex = 17;
             // 
-            // button2
+            // btnPlayerSave2
             // 
-            this.button2.BackColor = System.Drawing.Color.Silver;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(659, 389);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(374, 34);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "SAVE";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnPlayerSave2.BackColor = System.Drawing.Color.Silver;
+            this.btnPlayerSave2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlayerSave2.Location = new System.Drawing.Point(659, 389);
+            this.btnPlayerSave2.Name = "btnPlayerSave2";
+            this.btnPlayerSave2.Size = new System.Drawing.Size(374, 34);
+            this.btnPlayerSave2.TabIndex = 18;
+            this.btnPlayerSave2.Text = "SAVE";
+            this.btnPlayerSave2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnPlayerSave1
             // 
-            this.button3.BackColor = System.Drawing.Color.Silver;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(63, 389);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(374, 34);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "SAVE";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnPlayerSave1.BackColor = System.Drawing.Color.Silver;
+            this.btnPlayerSave1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlayerSave1.Location = new System.Drawing.Point(63, 389);
+            this.btnPlayerSave1.Name = "btnPlayerSave1";
+            this.btnPlayerSave1.Size = new System.Drawing.Size(374, 34);
+            this.btnPlayerSave1.TabIndex = 19;
+            this.btnPlayerSave1.Text = "SAVE";
+            this.btnPlayerSave1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -335,23 +336,23 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButton8);
-            this.Controls.Add(this.radioButton7);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.btnPlayerSave1);
+            this.Controls.Add(this.btnPlayerSave2);
+            this.Controls.Add(this.txtPlayerName1);
+            this.Controls.Add(this.txtPlayerName2);
+            this.Controls.Add(this.txtDragonName2);
+            this.Controls.Add(this.txtDragonName1);
+            this.Controls.Add(this.radEarthDragon2);
+            this.Controls.Add(this.radFireDragon2);
+            this.Controls.Add(this.radIceDragon2);
+            this.Controls.Add(this.radWindDragon2);
+            this.Controls.Add(this.radFireDragon1);
+            this.Controls.Add(this.radIceDragon1);
+            this.Controls.Add(this.radWindDragon1);
+            this.Controls.Add(this.radEarthDragon1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnStartGame);
             this.Name = "NewFrom1";
             this.Text = "Ice Dragon";
             this.Load += new System.EventHandler(this.NewFrom1_Load);
@@ -363,23 +364,23 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnStartGame;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RadioButton radEarthDragon1;
+        private System.Windows.Forms.RadioButton radWindDragon1;
+        private System.Windows.Forms.RadioButton radIceDragon1;
+        private System.Windows.Forms.RadioButton radFireDragon1;
+        private System.Windows.Forms.RadioButton radWindDragon2;
+        private System.Windows.Forms.RadioButton radIceDragon2;
+        private System.Windows.Forms.RadioButton radFireDragon2;
+        private System.Windows.Forms.RadioButton radEarthDragon2;
+        private System.Windows.Forms.TextBox txtDragonName1;
+        private System.Windows.Forms.TextBox txtDragonName2;
+        private System.Windows.Forms.TextBox txtPlayerName2;
+        private System.Windows.Forms.TextBox txtPlayerName1;
+        private System.Windows.Forms.Button btnPlayerSave2;
+        private System.Windows.Forms.Button btnPlayerSave1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
